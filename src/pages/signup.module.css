@@ -1,0 +1,36 @@
+.form {
+    text-align: center;
+}
+
+.listitem {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+    color: #2788D8;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.equal {
+    font-size: 2rem;
+    font-weight: bolder;
+
+
+}
+
+.learning {
+    font-size: 1rem;
+}   
+
+.textField {
+
+}
+
+.customError {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.button {
+    color: #2788D8;
+}
