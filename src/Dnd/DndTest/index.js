@@ -82,68 +82,79 @@ export default class DndTest extends Component {
                 <Droppable id="dr1" style={droppableStyle}>
                     <h2 style={{ color: 'white', textAlign: "center" }}>Assigned</h2>
                     
-                    <Link to="/evidence">
                         <Draggable id="item1" style={{ margin: '8px' }}><Item>
 
                             <TextField style={{ marginLeft: '.5rem' }} id="filled-basic" label="What is Today" variant="outlined" />
-                            <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={butterfly} alt="butterfly image" />
-                            <p>The evidence of change over time</p>
+                        <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={butterfly} alt="butterfly image" />
+                        <Link to="/evidence">
+                            <p style={{color: '#ccc'}}>The evidence of change over time</p>
+                        </Link>
+
                         </Item>
 
                         </Draggable>
-                    </Link>
                     
-                    <Link to="/generalquestions">
                         <Draggable id="item2" style={{ margin: '8px' }}>
 
                             <Item>
                                 <TextField id="filled-basic" label="What is Today" variant="outlined" />
-                                <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={GeneralKnowledge} alt="generalknowledge-image" />
-                                <p>General Questions</p>
+                            <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={GeneralKnowledge} alt="generalknowledge-image" />
+                            <Link to="/generalquestions">
+                            
+                                <p style={{ color: '#ccc' }}>General Questions</p>
+                            </Link>
+
                             </Item>
                         </Draggable>
-                    </Link>
                     
-                    <Link to="/fossil">
                         <Draggable id="item3" style={{ margin: '8px' }}>
                             <Item>
                                 <TextField id="filled-basic" label="What is Today" variant="outlined" />
                                 <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={dinoseur} alt="dinoseur-image" />
-                                <p>The fossil record activity</p>
+                            <Link to="/fossil">
+                                
+                                <p style={{ color: '#ccc' }}>The fossil record activity</p>
+                            </Link>
+
                             </Item>
                         </Draggable>
-                    </Link>
                     
-                    <Link to="/pollution">
                         <Draggable id="item4" style={{ margin: '8px' }}>
                             <Item>
                                 <TextField id="filled-basic" label="What is Today" variant="outlined" />
                                 <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={pollution} alt="pollution-image" />
-                                <p>How to stop pollution</p>
+                            <Link to="/pollution">
+                                
+                                <p style={{ color: '#ccc' }}>How to stop pollution</p>
+                            </Link>
+
                             </Item>
                         </Draggable>
-                    </Link>
                     
-                    <Link to="/maths">
                         <Draggable id="item5" style={{ margin: '8px' }}>
                             <Item>
                                 <TextField id="filled-basic" label="What is Today" variant="outlined" />
                                 <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={mathsfun} alt="maths-image" />
-                                <p>Have fun with maths</p>
+                            <Link to="/maths">
+                                
+                                <p style={{ color: '#ccc' }}>Have fun with maths</p>
+                            </Link>
+
                             </Item>
                         </Draggable>
-                    </Link>
                     
-                    <Link to="/naturalselection">
                         <Draggable id="item6" style={{ margin: '8px' }}>
                             <Item>
                                 <TextField id="filled-basic" label="What is Today" variant="outlined" />
                                 <img style={{ objectFit: 'contain', width: '100%', marginTop: '1rem' }} src={ns} alt="natural-selection-image" />
-                                <p>What is Natural Selection ?</p>
+                            <Link to="/naturalselection">
+                                
+                                <p style={{ color: '#ccc' }}>What is Natural Selection ?</p>
+                            </Link>
+
                             </Item>
                         </Draggable>   
                         
-                    </Link>
                     <Link to="">
                         <Draggable id="item7" style={{ margin: '8px' }}><Item><TextField id="filled-basic" label="What is Today" variant="outlined" /></Item></Draggable>                    
                     </Link>
