@@ -4,14 +4,10 @@ import heroImage from '../images/hero.jpeg';
 import play from '../images/play.jpeg';
 import boy from '../images/boy.jpeg';
 
-import Button from '@material-ui/core/Button';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 import  Link  from 'react-router-dom/Link';
 
-// mui stuff
-import Tooltip from '@material-ui/core/Tooltip';
-import login from './login';
-import signup from './signup';
+
 
 
 
@@ -28,41 +24,31 @@ function home () {
                 <nav className={classes.nav}>
                     <ul className={classes.list}>
                         <li className={classes.listitem}><span className={classes.equal}>Equal</span> <br /> <span className={classes.learning}>Learning</span></li>
+                 
                         
-                        {/* <Router>
-                            <Switch>
-                                <Route path="/signup" component={signup} />
-                               
-
-
-                            </Switch>
-                        </Router> */}
-                        
-                        <Link to="/signup">
-                            <Tooltip title="Products">
+                            {/* <Tooltip title="Products"> */}
                             <button className={classes.prodbtn}>Products</button>
                                 {/* <Button style={{ fontSize: '1rem', fontFamily: 'inherit' }} color="inherit" >Products</Button> */}
-                            </Tooltip>
-                        </Link>
+                            {/* </Tooltip> */}
                         
 
-                        <Tooltip title="About Us">
-                            <Button style={{ fontSize: '1rem', fontFamily: 'inherit' }} color="inherit"  >About Us</Button>
-                        </Tooltip>
+                        {/* <Tooltip title="About Us"> */}
+                        <button className="ui button"   >About Us</button>
+                        {/* </Tooltip> */}
                         
 
-                        <Tooltip title="Resources">
-                            <Button style={{ fontSize: '1rem', fontFamily: 'inherit' }} color="inherit"  >Resources</Button>
-                        </Tooltip>
+                        {/* <Tooltip title="Resources"> */}
+                            <button className="ui button"  >Resources</button>
+                        {/* </Tooltip> */}
 
-                        <Tooltip title="Solutions">
-                            <Button style={{ fontSize: '1rem', fontFamily: 'inherit' }} color="inherit"  >Solutions</Button>
-                        </Tooltip>
+                        {/* <Tooltip title="Solutions"> */}
+                        <button className="ui button"  >Solutions</button>
+                        {/* </Tooltip> */}
 
-                        <Tooltip title="Let's Talk">
-                            <Button style={{ fontSize: '1rem', fontFamily: 'inherit', background: '#2788D8', padding: '.7rem 1.4rem', borderRadius: '.5rem', color: '#fff' }} color="inherit"  >Let's Talk</Button>
+                        {/* <Tooltip title="Let's Talk"> */}
+                        <button className="ui button" style={{ fontSize: '1rem', fontFamily: 'inherit', background: '#2788D8', padding: '.7rem 1.4rem', borderRadius: '.5rem', color: '#fff' }} color="inherit"  >Let's Talk</button>
 
-                        </Tooltip>
+                        {/* </Tooltip> */}
 
                     </ul>
                 </nav>
@@ -86,7 +72,7 @@ function home () {
                                 <p className={classes.profession}>Professional Learning</p>
                                 <p className={classes.help}>Help educators increase effectiveness and empower their learners.</p>
                                 <p className={classes.customized}>Customized professional learning pathways leading to the articulation of strong learner-centered outcomes, supporting educators in developing effective instructional practices, and creating  the enabling condition that results in transformative change.</p>
-                                <Button style={{ fontSize: '1rem', color: '#60A8E1' }}>Learn More</Button>
+                                <button className="ui button" >Learn More</button>
                             </div>
 
                         </div>
@@ -99,7 +85,7 @@ function home () {
                                 <p className={classes.profession}>Learning Platform</p>
                                 <p className={classes.help}>Make learning visible and meanigful for all learners</p>
                                 <p className={classes.customized}>Powerful technology platform allowing educators and students to co-create individual learning pathways, track and measure growth along the way, and enable meanigful engagement throughout the learning cycle.</p>
-                                <Button style={{ fontSize: '1rem', color: '#60A8E1'}}>Learn More</Button>
+                                <button className="ui button">Learn More</button>
 
                             </div>
 
