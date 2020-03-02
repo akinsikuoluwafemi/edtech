@@ -1,0 +1,42 @@
+{
+  "streams": [
+    {
+      "title": "My first Stream",
+      "description": "Streaming is very good",
+      "id": 1
+    },
+    {
+      "title": "other stream",
+      "description": "anothe neew stream from other stream",
+      "id": 2
+    },
+    {
+      "title": "I created this stream",
+      "description": "notyhing said",
+      "id": 3
+    },
+    {
+      "title": "New Title",
+      "description": "check this out",
+      "id": 6
+    },
+    {
+      "title": "First Video",
+      "description": "Tell the truth",
+      "userId": "101795484280244259466",
+      "id": 7
+    },
+    {
+      "title": "New Stream",
+      "description": "The ",
+      "userId": "101795484280244259466",
+      "id": 8
+    },
+    {
+      "title": "Motivation",
+      "description": "How I see Challenges",
+      "userId": "101795484280244259466",
+      "id": 9
+    }
+  ]
+}
